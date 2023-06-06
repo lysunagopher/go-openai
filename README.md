@@ -12,7 +12,7 @@ This library provides unofficial Go clients for [OpenAI API](https://platform.op
 
 ### Installation:
 ```
-go get github.com/sashabaranov/go-openai
+go get github.com/lysunagopher/go-openai
 ```
 
 
@@ -24,7 +24,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -65,7 +65,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -118,7 +118,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -151,7 +151,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -200,7 +200,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -232,7 +232,7 @@ import (
 	"fmt"
 	"os"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -273,7 +273,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 	"image/png"
 	"os"
 )
@@ -361,7 +361,7 @@ config.HTTPClient = &http.Client{
 c := openai.NewClientWithConfig(config)
 ```
 
-See also: https://pkg.go.dev/github.com/sashabaranov/go-openai#ClientConfig
+See also: https://pkg.go.dev/github.com/lysunagopher/go-openai#ClientConfig
 </details>
 
 <details>
@@ -377,7 +377,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sashabaranov/go-openai"
+	"github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -431,7 +431,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
@@ -478,7 +478,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/lysunagopher/go-openai"
 )
 
 func main() {
